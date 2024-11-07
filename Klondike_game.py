@@ -26,7 +26,7 @@ def Colx(board, line, pil): """Проверка количества 'X' в со
                 new_line = line + inr  
                 new_pil = pil + inc 
                 if board[new_line][new_pil] == 'X':  
-                    count += 1 
+                    calc += 1 
     return calc 
  
 winplay = 0 
